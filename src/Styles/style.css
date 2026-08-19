@@ -90,7 +90,7 @@ textarea:focus-visible {
 .logo {
   justify-self: start;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
@@ -104,16 +104,16 @@ textarea:focus-visible {
   align-items: center;
   gap: 0.2rem;
   background: var(--surface);
-  border: 1.5px solid rgba(233, 235, 242, 0.18);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 999px;
-  padding: 0.3rem;
+  padding: 0.6rem;
 }
 
 .pill-link {
   position: relative;
-  color: var(--text-muted);
+  color: white;
   text-decoration: none;
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -161,7 +161,7 @@ textarea:focus-visible {
   border: none;
   background: var(--violet);
   color: #fff;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
@@ -290,7 +290,7 @@ textarea:focus-visible {
 }
 
 .hero-text {
-  padding-left: clamp(0px, 4vw, 60px);
+  padding-left: clamp(0px, 4vw, 20px);
 }
 @media (min-width: 1024px) {
   .hero-text {
