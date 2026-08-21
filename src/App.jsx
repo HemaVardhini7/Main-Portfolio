@@ -5,9 +5,12 @@ import Projects from "./component/Projects";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import SplashCursor from "./component/SplashCursor";
+import ParticleBackground from "./component/ParticleBackground";
+
 function App() {
   return(
     <>
+      <ParticleBackground/>
       <SplashCursor />
       <Hero />
       <About/>
